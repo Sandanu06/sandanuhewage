@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandanu Hewage - Portfolio</title>
+	 <link rel="icon" type="image/png" href="icon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cursor -->
+<div class="custom-cursor"></div>
+<div class="cursor-dot"></div>
+
+<!-- Scroll Progress Bar -->
+<div class="scroll-progress">
+    <div class="scroll-progress-bar"></div>
+</div>
+
+<!-- Navigation 
+<nav class="navbar">
+    <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+    <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#cv" class="nav-link">CV</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </div>
+</nav> -->
+
+<!-- Scroll Indicator 
+<div class="scroll-indicator">
+    <div class="scroll-dot active" data-section="home"></div>
+    <div class="scroll-dot" data-section="about"></div>
+    <div class="scroll-dot" data-section="projects"></div>
+    <div class="scroll-dot" data-section="cv"></div>
+    <div class="scroll-dot" data-section="contact"></div>
+</div>
+-->
+	<header class="hero">
+    <div class="hero-wrapper">
+        <div class="profile-image-container">
+            <div class="profile-backdrop"></div>
+            <div class="profile-image">
+                <!-- Replace src with your actual image path -->
+                <img src="test.png" alt="Sandanu Hewage" class="profile-img">
+            </div>
+            <div class="profile-ring"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="gradient-text" data-text="Sandanu Hewage">Sandanu Hewage</h1>
+            <p class="subtitle">Entrepreneur | Tech Enthusiast | Innovation Driver</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sandanu-hewage-35761b295/" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Sandanu06" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/sandanu_hewage?igsh=N2dhbTRqMWcxYXc1" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="mailto:sandanumihisara06@gmail.com" class="social-icon"><i class="far fa-envelope"></i></a>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+    <!-- About Section -->
+    <section class="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p class="about-text">
+            As the founder of Teczos Cloud and Chairo Store, I combine entrepreneurial drive 🚀 with a passion for technology 💻.
+			My journey in the tech world started with a Diploma in Computer Science 🎓, and since then, I've delved into exciting areas like AI 🤖, Machine Learning 📊, and Business Analytics 📈. As a lifelong learner 📚,
+			I believe there's no challenge too great—if it can be done, I’m ready to make it happen! 💪.
+        </p>
+        <div class="skills-grid">
+            <div class="skill-card" data-aos="fade-up">
+                <i class="fas fa-brain"></i>
+                <h3>AI Enthusiast</h3>
+                <p>Passionate about artificial intelligence and its applications</p>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-chart-bar"></i>
+                <h3>Data Analytics</h3>
+                <p>Experienced in business and data analytics</p>
+            </div>
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-code"></i>
+                <h3>Developer</h3>
+                <p>Created multiple websites and applications</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" data-aos="fade-up">
+        <h2>My Ventures</h2>
+        <div class="projects-grid">
+            <div class="project-card" data-aos="fade-up">
+                <i class="fas fa-globe"></i>
+                <h3>Teczos Cloud</h3>
+                <p>A software company and marketing agency delivering innovative solutions
+                    for businesses worldwide.</p>
+                <a href="https://www.teczos.cloud" class="project-link">Learn More →</a>
+            </div>
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fas fa-store"></i>
+                <h3>Chairo Store</h3>
+                <p>An e-commerce platform offering curated products with a focus on
+                    quality and customer experience.</p>
+                <a href="https://www.chairo.store" class="project-link">Visit Store →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Section -->
+<section class="cv-section">
+    <div class="cv-content">
+        <h2 class="cv-title">Download My CV</h2>
+        <p class="cv-description">
+            I am a passionate professional with a diverse skill set in web development and design.
+            Click the button below to download my CV and learn more about my experience and projects.
+        </p>
+        <a href="https://drive.google.com/file/d/1rIt5f0K3b6SGLBFgZOnqtj7TODTXSCcf/view?usp=sharing" class="download-btn">
+            <span>Download CV</span>
+            <i class="icon-download"></i> <!-- Example icon -->
+        </a>
+    </div>
+</section>
+
+
+
+    <!-- Contact Section -->
+<section class="contact" data-aos="fade-up">
+    <h2>Let's Connect</h2>
+    <p>Interested in collaboration or want to learn more about my ventures?<br>Feel free to reach out!</p>
+    
+    <!-- Contact Form -->
+    <form class="contact-form" action="https://formspree.io/f/mgvvqoyk" method="POST">
+        <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        </div>
+        <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+    
+    <!-- Alternative Contact Options -->
+<div class="alt-contact">
+    <p>Reach out directly:</p>
+    <button class="call-btn" onclick="window.location.href='tel:+1234567890'">
+        Call Now
+    </button>
+</div>
+
+    </div>
+
+</section>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Sandanu Hewage. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
